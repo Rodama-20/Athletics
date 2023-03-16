@@ -7,8 +7,6 @@ from math import floor
 from ..discipline.discipline import Discipline
 
 
-
-
 class Run(Discipline):
     """Formula collection for run disciplines."""
 
