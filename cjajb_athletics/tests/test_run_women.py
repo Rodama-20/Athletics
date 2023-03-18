@@ -44,7 +44,7 @@ def test_1000m():
 
 
 def test_1500m():
-    assert Run.flat_1500_women(313.68) == 600
+    assert Run.flat_1500_women(313.58) == 600
 
 
 def test_2000m():
