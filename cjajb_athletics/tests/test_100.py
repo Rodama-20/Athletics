@@ -48,6 +48,10 @@ def test_100_men_string():
 
 def test_100_women_string():
     assert Run.flat_100_women("11") == 1167
-    
+
+
 def test_100_men_array():
-    assert numpy.array_equal(Run.flat_100_men(numpy.array([10, 9.98, 21.10, 9.00, 22.00, 30.0])), numpy.array([1195, 1199, 1, 1200, 0, 0]))
+    assert numpy.array_equal(
+        Run.flat_100_men(numpy.array([10, 9.98, 21.10, 9.00, 22.00, 30.0])),
+        numpy.array([1195, 1199, 1, 1200, 0, 0]),
+    )
