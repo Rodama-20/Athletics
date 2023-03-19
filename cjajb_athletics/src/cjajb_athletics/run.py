@@ -27,10 +27,9 @@ def _fsa_2010(
     """
 
     if isinstance(performance, np.ndarray):
-        points = _a * np.power((100 * performance - _b) / 100, _c, dtype=complex)
-        points = np.where(np.isreal(points), 0, points)
-        points = np.abs(points)
-        return np.minimum(np.floor(points), 1200)
+        points = _a * np.power((_b - 100 * performance) / 100, _c, dtype=complex)
+        points = np.where(np.iscomplex(points), 0, points)
+        return np.minimum(np.floor(points.real), 1200)
 
     if isinstance(performance, str):
         performance = float(performance)
