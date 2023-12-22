@@ -1,5 +1,5 @@
 cjajb_athletics
-===============
+===
 
 .. toctree::
    :maxdepth: 4
