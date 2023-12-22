@@ -23,7 +23,7 @@ cjajb\_athletics.technic module
 Module contents
 ---------------
 
-.. automodule:: src.cjajb_athletics
+.. automodule:: cjajb_athletics
    :members:
    :undoc-members:
    :show-inheritance:
