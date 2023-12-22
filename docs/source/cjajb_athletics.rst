@@ -1,11 +1,11 @@
 cjajb\_athletics package
-========================
+============================
 
 Submodules
 ----------
 
 cjajb\_athletics.run module
----------------------------
+-------------------------------
 
 .. automodule:: cjajb_athletics.run
    :members:
@@ -13,7 +13,7 @@ cjajb\_athletics.run module
    :show-inheritance:
 
 cjajb\_athletics.technic module
--------------------------------
+-----------------------------------
 
 .. automodule:: cjajb_athletics.technic
    :members:
@@ -23,7 +23,7 @@ cjajb\_athletics.technic module
 Module contents
 ---------------
 
-.. automodule:: cjajb_athletics
+.. automodule:: src.cjajb_athletics
    :members:
    :undoc-members:
    :show-inheritance:
