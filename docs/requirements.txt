@@ -1,0 +1,2 @@
+-i https://pypi.org/simple
+sphinx-rtd-theme==2.0.0
