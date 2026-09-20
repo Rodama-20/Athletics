@@ -4,7 +4,7 @@ Extensive testing for all special cases.
 """
 
 import numpy
-import src.cjajb_athletics.technic as Technic
+import cjajb_athletics.technic as Technic
 
 
 def test_1200_points_limit():

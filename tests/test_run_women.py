@@ -1,6 +1,6 @@
 """Test all the running formulas for women
 """
-import src.cjajb_athletics.run as Run
+import cjajb_athletics.run as Run
 
 
 def test_50m():
