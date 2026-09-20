@@ -4,7 +4,7 @@ Extensive testing for all special cases.
 """
 
 import numpy
-import src.cjajb_athletics.run as Run
+import cjajb_athletics.run as Run
 
 
 def test_100_men_1199():

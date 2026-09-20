@@ -1,7 +1,7 @@
 """Test all the technic tables for men
 """
 
-import src.cjajb_athletics.technic as Technic
+import cjajb_athletics.technic as Technic
 
 
 def test_high_jump():
